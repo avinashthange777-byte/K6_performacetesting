@@ -4,6 +4,7 @@ import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporte
 
 const BASE_URL = __ENV.BASE_URL || 'https://test.k6.io';
 
+//traffic distribution configuration
 const TRAFFIC_SPLIT = {
     home: 0.6,
     news: 0.2,
